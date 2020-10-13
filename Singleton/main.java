@@ -1,5 +1,7 @@
 package singleton;
 
+//Usage examples befor and after initialising the "Terre" object
+
 public class main {
 
 	public static void main(String[] args) {
