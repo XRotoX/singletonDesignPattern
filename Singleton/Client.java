@@ -1,5 +1,8 @@
 package singleton;
 
+//To give user more accessibility and good experience we've created this class to interact with the user
+//by printing messages and handling errors.
+
 public class Client {
 	public static String CREATION_SUCCESS = "Terre was created successfully.";
 	public static String NOT_CREATED_YET = "Terre was not instantiated yet!";
