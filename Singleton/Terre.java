@@ -6,6 +6,7 @@ class Terre {
 	private static int age;
 	static boolean isInit = false;
 	
+	//"Terre" constructor
 	private Terre(int population, int age, boolean isInit) {
 		Terre.population = population;
 		Terre.age = age;
@@ -13,6 +14,7 @@ class Terre {
 		
 	}
 	
+	//"Create" function gives clients access to create "Terre" object
 	public static Terre Create(int population, int age) {
 		if(terre == null) {
 			synchronized(Terre.class) {
@@ -23,7 +25,9 @@ class Terre {
 		}
 		return terre;
 	}
-
+	
+	
+	//Getters and setters give clients access to modify and retrieve "Terre" object attributes
 	public static int getPopulation() {
 		return population;
 		
