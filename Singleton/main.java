@@ -1,6 +1,6 @@
 package singleton;
 
-//Usage examples befor and after initialising the "Terre" object
+//Usage examples before and after initialising the "Terre" object
 
 public class main {
 
